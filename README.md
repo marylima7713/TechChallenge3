@@ -3,7 +3,7 @@
 **Pipeline de dados em nuvem (arquitetura medalhão) + análises em SQL + Power BI**
 
 Projeto end-to-end que ingere, harmoniza e analisa três edições da pesquisa
-**State of Data Brazil**, respondendo às perguntas de negócio do challenge com
+**State of Data Brazil** (2023,2024 e 2025), respondendo às perguntas de negócio do challenge com
 dados reais de **+14 mil profissionais** da área de dados no país.
 
 ---
@@ -97,10 +97,14 @@ construída e validada no notebook Colab:
 
 ---
 
-## Apresentação (Power BI)
+## Apresentação e Storytelling
 
-O arquivo foi inserido manualmente no Power BI,
-fazendo um compilado de graficos, para montar a apresentação no canva.
+Os indicadores calculados na camada Gold alimentaram dashboards interativos no **Power BI**,
+permitindo a exploração dinâmica dos dados.
+
+Para a entrega final, os principais insights foram consolidados em um **relatório executivo**
+visual, focado na comunicação clara dos resultados para stakeholders e na tomada de decisão
+baseada em dados.
 
 ---
 
