@@ -81,6 +81,16 @@ FROM vw
 GROUP BY nivel 
 ORDER BY pct_top DESC;
 
+-- 2.3 - % Top Tier por nível de ensino
+SELECT nivel_de_ensino,
+       COUNT(*) AS total,
+       ROUND(100.0 * SUM(top_tier) / COUNT(*), 1) AS pct_top_tier,
+       ROUND(100.0 * COUNT(*) / SUM(COUNT(*)) OVER (), 1) AS pct_mercado
+FROM vw
+WHERE nivel_de_ensino != 'Nao_informado'
+GROUP BY nivel_de_ensino
+ORDER BY pct_top_tier DESC;
+
 
 -- ============================= P3: Quail é o cenário de diversidade de gênero nas carreiras de dados? =============================
 
