@@ -3,7 +3,7 @@
 **Pipeline de dados em nuvem (arquitetura medalhão) + análises em SQL + Power BI**
 
 Projeto end-to-end que ingere, harmoniza e analisa três edições da pesquisa
-**State of Data Brazil** (2023,2024 e 2025), respondendo às perguntas de negócio do challenge com
+**State of Data Brazil** (2023,2024 e 2025) no kaggle, respondendo às perguntas de negócio do challenge com
 dados reais de **+14 mil profissionais** da área de dados no país.
 
 ---
@@ -79,7 +79,7 @@ construída e validada no notebook Colab:
 | 2025 | 3.494 | 176 |
 | **Unificado** | **14.002** | **176** |
 
->  Algumas colunas foram removidas pelas edições mais novas da pesquisa
+>  Algumas colunas foram removidas pelas edições mais novas da pesquisa,
 >  ficam naturalmente fora da interseção,
 > decisão documentada, não é perda de dados.
 
@@ -114,5 +114,3 @@ Python · Pandas · PySpark · AWS (S3, Glue, Athena) · SQL · DuckDB ·
 Power BI · Git/GitHub
 
 ---
-
-> *"Dados crus são opinião de terceiros; dados harmonizados são decisão de engenharia."* 
