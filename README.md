@@ -3,7 +3,7 @@
 **Pipeline de dados em nuvem (arquitetura medalhão) + análises em SQL + Power BI**
 
 Projeto end-to-end que ingere, harmoniza e analisa três edições da pesquisa
-**State of Data Brazil** (2023,2024 e 2025) no kaggle, respondendo às perguntas de negócio do challenge com
+**State of Data Brazil**, utilizando dados públicos do Kaggle, respondendo às perguntas de negócio do challenge com
 dados reais de **+14 mil profissionais** da área de dados no país.
 
 ---
